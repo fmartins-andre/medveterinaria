@@ -3,13 +3,12 @@ export type Data = {
 }
 
 export type Symptoms = {
-  id: string
-  nome: string
+  id?: string
+  name: string
 }
 
 export type Disease = {
-  id: string
-  nome: string
+  id?: string
+  name: string
+  symptoms: string[]
 }
-
-// operation: '<'|'<='|'=='|'>'|'>='|'!='|'array-contains'|'array-contains-any'|'in'|'not-in'
